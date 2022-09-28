@@ -1,0 +1,115 @@
+body{
+    background: #F3F5FC;
+}
+
+header{
+    width: 100%;
+    padding: 0 0 30px 0;
+    background: #a1b3f3;
+}
+
+.logoEncabezado{
+    padding-top: 40px;
+    padding-left: 40px;
+    display: inline-block;
+}
+
+.textoEncabezado{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(13, 110, 45);
+    position: absolute;
+    top: 70px;
+    left: 750px;
+    text-transform: uppercase;
+}
+
+main{
+    margin: 0 30px;
+    padding: 80px 20px 0 20px;
+}
+
+.cajaReceptora{
+    display: inline-block;
+    margin: 0 220px 0 120px;
+}
+
+.cajaReceptora legend{
+    font-size: 40px;
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: #0A3871;
+}
+
+#textoIngresado{
+    display: block;
+    width: 700px;
+    border-radius: 10px;
+    font-size: 25px;
+    resize: none;
+    border: none;
+}
+
+.cajaBotones{
+    width: 90%;
+    margin: 10px 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+.botones{
+    width: 40%;
+    background-color: rgb(214, 148, 214);
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+
+.botones:hover{
+    background-color: rgb(165, 92, 165);
+}
+
+.botones:active{
+    background-color: rgb(167, 46, 167);
+}
+
+.cajaMostradora{
+    width: 400px;
+    height: 620px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 32px;
+    padding: 30px;
+}
+
+.resultado{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0A3871;
+}
+
+.mensaje{
+    color: #343A40;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.sugerencia{
+    color: #495057;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer{
+    margin: 70px 0 0 0;
+    padding: 80px 0;
+    background-color: #D8DFE8;
+}
